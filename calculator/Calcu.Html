@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Calculator</title>
+    <link rel="stylesheet" href="Calcu.css">
+</head>
+<body>
+    <!-- main container -->
+    <div class="main_container">
+    <!-- 6 container for rows -->
+    <div class="firstrow">
+    <label id="lbl">0</label>
+    </div>
+
+    <div class="2ndrow">
+        <button class="gray btn" onclick="execute('C')">C</button>
+        <button class="gray btn" onclick="execute('+/-')">+/–</button>
+        <button class="gray btn" onclick="execute('%')">%</button>
+        <button class="orange btn" onclick="execute('÷')">÷</button>
+    </div>
+    <div class="3rdrow">
+        <button class="black btn" onclick="execute('7')">7</button>
+        <button class="black btn" onclick="execute('8')">8</button>
+        <button class="black btn" onclick="execute('9')">9</button>
+        <button class="orange btn" onclick="execute('x')">×</button>
+    </div>
+    <div class="4throw">
+        <button class="black btn" onclick="execute('4')">4</button>
+        <button class="black btn" onclick="execute('5')">5</button>
+        <button class="black btn" onclick="execute('6')">6</button>
+        <button class="orange btn" onclick="execute('-')">–</button>
+    </div>
+    <div class="5throw">
+        <button class="black btn" onclick="execute('1')">1</button>
+        <button class="black btn" onclick="execute('2')">2</button>
+        <button class="black btn" onclick="execute('3')">3</button>
+        <button class="orange btn" onclick="execute('+')">+</button>
+    </div>
+    <div class="6throw">
+        <button class="black zero" onclick="execute('0')">0</button>
+        <button class="black btn" onclick="execute('.')">.</button>
+        <button class="orange btn" onclick="execute('=')">=</button>
+    </div>
+    </div>
+    <script src="Calcu.js"></script>
+</body>
+</html>
